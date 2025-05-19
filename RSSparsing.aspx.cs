@@ -18,12 +18,12 @@ namespace NewsApp
         // Kategorilere göre RSS besleme URL'lerini tutan sözlük
         private readonly Dictionary<string, string> rssFeedsByCategory = new Dictionary<string, string>()
         {
-            {"Turkiye", "https://www.ntv.com.tr/turkiye.rss"},
-            {"Dunya", "https://www.ntv.com.tr/dunya.rss"},
-            {"Ekonomi", "https://www.ntv.com.tr/ekonomi.rss"},
-            {"Spor", "https://www.ntv.com.tr/spor.rss"},
-            {"Saglik", "https://www.ntv.com.tr/saglik.rss"},
-            {"Teknoloji", "https://www.ntv.com.tr/teknoloji.rss"}
+            {"Turkiye", "https://www.ornek.com.tr/turkiye.rss"},
+            {"Dunya", "https://www.ornek.com.tr/dunya.rss"},
+            {"Ekonomi", "https://www.ornek.com.tr/ekonomi.rss"},
+            {"Spor", "https://www.ornek.com.tr/spor.rss"},
+            {"Saglik", "https://www.ornek.com.tr/saglik.rss"},
+            {"Teknoloji", "https://www.ornek.com/teknoloji.rss"}
         };
 
         // 'Haberleri Çek' butonuna tıklandığında çalışacak metod
